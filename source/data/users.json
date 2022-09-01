@@ -1,0 +1,26 @@
+[
+  {
+    "email": "tbedits8@gmail.com",
+    "password": "12399",
+    "avatar": null,
+    "id": 3
+  },
+  {
+    "email": "matubrena@gmail.com",
+    "password": "98765",
+    "avatar": null,
+    "id": 4
+  },
+  {
+    "email": "aguanteracingpuntero@gmail.com",
+    "password": "$2b$10$ADQ8/c50ERCIk5UGoxJa.ehm6cayoe4TlTXMuIq2RIgQVTQ1YIHyK",
+    "avatar": null,
+    "id": 5
+  },
+  {
+    "email": "matubrena@futbolxi.com",
+    "password": "$2b$10$CNclvkhpWnc0vLd3ECdptONraDU7NI7uZHiwa4En5afs3esvzieXy",
+    "avatar": null,
+    "id": 6
+  }
+]

@@ -1,0 +1,13 @@
+<%- include("./partials/head.ejs")  %> 
+<body>
+    <%- include("./partials/header.ejs")  %> 
+    <main>
+        <% if (!user) { %> 
+        <h2>Welcome to Express Auth</h2>
+        <% } else { %> 
+     <h2>Welcome <%= user.email %> </h2>
+    <% } %> 
+    </main>
+    <%- include("./partials/footer.ejs")  %> 
+</body>
+</html>

@@ -1,0 +1,53 @@
+@import url('base.css');
+@import url('header.css');
+@import url('footer.css');
+main{
+    min-height: 50vh;
+}
+
+main h2{
+    margin: 1rem 0;
+    text-align: center;
+    text-decoration: underline;
+}
+main form{
+    margin: 0 auto;
+    width: 25vw;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: rgb(48, 36, 220);
+}
+
+.field{
+    display: flex;
+    flex: 0 0 100%;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.field input{
+    padding: 0 1rem;
+}
+.btns {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.field label , .btns button{
+    border: none;
+    outline: none;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    color:rgb(48, 36, 220);
+}
+
+.feedback {
+    flex: 0 0 100%;
+    padding: 1rem;
+    background-color: tomato;
+    color: snow;
+}
